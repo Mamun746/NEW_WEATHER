@@ -1,12 +1,14 @@
 import React from 'react';
-import Weather from './components/Weather';
+
+import NewWeather from './components/NewWeather';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Weather/>
+     
+      <NewWeather/>
     </div>
   );
 }
